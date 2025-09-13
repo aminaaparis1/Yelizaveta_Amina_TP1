@@ -1,0 +1,16 @@
+.color{
+  color : white;
+  font-size: xx-large;
+  font-family: "Arial Rounded MT Bold", serif;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: violet;
+  position: fixed;
+  margin : 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}

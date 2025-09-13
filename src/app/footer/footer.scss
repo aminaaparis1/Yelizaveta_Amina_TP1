@@ -1,0 +1,16 @@
+.footer{
+  color : white;
+  font-size: x-large;
+  font-family: "Arial Rounded MT Bold", serif;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  position: fixed;
+  margin : 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}

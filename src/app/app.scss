@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.center {
+  flex: 1; /* prend tout l’espace entre header et footer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
