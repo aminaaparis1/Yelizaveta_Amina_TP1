@@ -1,12 +1,17 @@
-<app-header
-  [sizeClass]="'header-size'"
-  [backgroundClass]="'background-violet'"
-  [textClass]="'white-text'">
-</app-header>
+<div class="page" [style.backgroundColor]="backgroundColor">
+  <app-header
+    [sizeClass]="'header-size'"
+    [backgroundClass]="'background-violet'"
+    [textClass]="'white-text'">
+  </app-header>
 
-<app-footer
-  [backgroundClass]="'background-orange'"
-  [textClass]="'white-text'"
-  [sizeClass]="'footer-size'">
-</app-footer>
+  <main class="center">
+    <app-carre (backgroundChange)="setBackground($event)"></app-carre>
+  </main>
 
+  <app-footer
+    [backgroundClass]="'background-orange'"
+    [textClass]="'white-text'"
+    [sizeClass]="'footer-size'">
+  </app-footer>
+</div>
