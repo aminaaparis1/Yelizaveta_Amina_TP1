@@ -11,9 +11,9 @@ import { Carre } from './carre/carre';
   styleUrls: ['./app.scss']
 })
 export class App {
-  backgroundColor = 'white';
+  public backgroundColor: string = 'white';
 
-  setBackground(color: string) {
+  public setBackground(color: string): void {
     this.backgroundColor = color;
   }
 }

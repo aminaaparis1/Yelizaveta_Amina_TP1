@@ -7,9 +7,9 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./carre.scss']
 })
 export class Carre {
-  @Output() backgroundChange = new EventEmitter<string>();
+  @Output() public backgroundChange: EventEmitter<string> = new EventEmitter<string>();
 
-  changeBackground(color: string) {
+  public changeBackground(color: string): void {
     this.backgroundChange.emit(color);
   }
 }

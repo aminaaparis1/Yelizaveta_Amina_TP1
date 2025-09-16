@@ -9,7 +9,7 @@ import { NgClass } from '@angular/common';
   styleUrls: ['./header.scss']
 })
 export class Header {
-  @Input() sizeClass = '';
-  @Input() backgroundClass = '';
-  @Input() textClass = '';
+  @Input() public sizeClass: string = '';
+  @Input() public backgroundClass: string = '';
+  @Input() public textClass: string = '';
 }

@@ -9,7 +9,7 @@ import { NgClass } from '@angular/common';
   styleUrls: ['./footer.scss']
 })
 export class Footer {
-  @Input() backgroundClass: string = '';
-  @Input() textClass: string = '';
-  @Input() sizeClass: string = '';
+  @Input() public backgroundClass: string = '';
+  @Input() public textClass: string = '';
+  @Input() public sizeClass: string = '';
 }
