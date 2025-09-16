@@ -2,6 +2,12 @@
     min-height: 100vh;         
     display: flex;
     flex-direction: column;
+    position: fixed;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
   }
   
   .center {
@@ -9,5 +15,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
   }
   
